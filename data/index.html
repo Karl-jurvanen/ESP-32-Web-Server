@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html" charset="utf-8"/>
+<meta name="viewport" content="width=device-width height=device-height, initial-scale=1"/>
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <title>Title</title>
+</head>
+
+<body>
+
+<style>
+.form-group {
+    max-width: 500px;
+    margin: auto;
+    
+    padding: 10px;
+}
+</style>
+
+
+<div class="form-box">
+    <form method="POST" action="index">
+
+	<div class="form-group">
+        <label for="blink">
+            Blink time
+        </label>
+        <input type="text" class="form-control" name="blink" id="blink">
+	</div>
+	<div class="form-group">
+        <label for="red">
+            Red
+        </label>
+        <input type="text" class="form-control" name="red" id="red">
+	</div>
+	<div class="form-group">
+        <label for="green">
+            Green
+        </label>
+        <input type="text" class="form-control" name="green" id="green">
+	</div>
+	<div class="form-group">
+        <label for="blue">
+            Blue
+        </label>
+        <input type="text" class="form-control" name="blue" id="blue">
+	</div>
+	<div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+	</div>
+    </form>
+</div>
+
+<script src="jquery.slim.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
